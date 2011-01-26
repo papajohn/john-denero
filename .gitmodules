@@ -1,3 +1,6 @@
 [submodule "lib/aetycoon"]
 	path = lib/aetycoon
 	url = git://github.com/Arachnid/aetycoon.git
+[submodule "themes/coolblue"]
+	path = themes/coolblue
+	url = git://github.com/rctay/bloggart-theme-coolblue.git
