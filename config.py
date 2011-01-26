@@ -1,18 +1,18 @@
 # Name of the blog
-blog_name = 'My Blog'
+blog_name = 'John DeNero'
 
 # Your name (used for copyright info)
-author_name = 'the author'
+author_name = 'John DeNero'
 
 # (Optional) slogan
-slogan = 'This is my blog'
+slogan = ''
 
 # The hostname this site will primarially serve off (used for Atom feeds)
-host = 'localhost:8080'
+host = 'john-denero.appspot.com'
 
 # Selects the theme to use. Theme names correspond to directories under
 # the 'themes' directory, containing templates and static content.
-theme = 'default'
+theme = 'coolblue'
 
 # Defines the URL organization to use for blog postings. Valid substitutions:
 #   slug - the identifier for the post, derived from the title
@@ -24,13 +24,10 @@ post_path_format = '/%(year)d/%(month)02d/%(slug)s'
 # A nested list of sidebar menus, for convenience. If this isn't versatile
 # enough, you can edit themes/default/base.html instead.
 sidebars = [
-  ('Blogroll', [
-    '<a href="http://blog.notdot.net/">Nick Johnsonz</a>',
-    '<a href="http://www.billkatz.com/">Bill Katz</a>',
-    '<a href="http://www.codinghorror.com/blog/">Coding Horror</a>',
-    '<a href="http://craphound.com/">Craphound</a>',
-    '<a href="http://www.neopythonic.blogspot.com/">Neopythonic</a>',
-    '<a href="http://www.schneier.com/blog/">Schneier on Security</a>',
+  ('Links', [
+    ('Google Translate Blog', 'http://googletranslate.blogspot.com/'),
+    ('My Wife Jessica\'s Blog', 'http://jessicawan.com'),
+    ('My Berkeley Homepage', 'http://www.eecs.berkeley.edu/~denero/index.html'),
   ]),
 ]
 
@@ -42,13 +39,13 @@ html_mime_type = "text/html; charset=utf-8"
 
 # To use disqus for comments, set this to the 'short name' of the disqus forum
 # created for the purpose.
-disqus_forum = None
+disqus_forum = 'johndenero'
 
 # Length (in words) of summaries, by default
-summary_length = 200
+summary_length = 2000
 
 # If you want to use Google Analytics, enter your 'web property id' here
-analytics_id = None
+analytics_id = 'UA-20813292-1'
 
 # If you want to use PubSubHubbub, supply the hub URL to use here.
 hubbub_hub_url = 'http://pubsubhubbub.appspot.com/'
@@ -62,7 +59,7 @@ google_sitemap_ping = True
 # an html file' method, then set the NAME of the file below.
 # Note that you do not need to download the file provided - just enter its name
 # here.
-google_site_verification = None
+google_site_verification = 'google00fbe0efbf08ee9f.html'
 
 # Default markup language for entry bodies (defaults to html).
 default_markup = 'html'

@@ -51,13 +51,16 @@ post_deploy_tasks.append(generate_static_pages([
 
 
 def regenerate_all(previous_version):
-  if previous_version:
+  if previous_version and hasattr(previous_version, 'bloggart_major'):
     ver_tuple = (
       previous_version.bloggart_major,
       previous_version.bloggart_minor,
       previous_version.bloggart_rev,
     )
-  if ver_tuple < BLOGGART_VERSION:
+    if ver_tuple < BLOGGART_VERSION:
+      regen = PostRegenerator()
+      deferred.defer(regen.regenerate)
+  else:
     regen = PostRegenerator()
     deferred.defer(regen.regenerate)
 

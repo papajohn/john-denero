@@ -35,7 +35,7 @@ import markdown_processor
 import rst_directive
 import textile
 from docutils.core import publish_parts
-
+import publication
 
 CUT_SEPARATOR_REGEX = r'<!--.*cut.*-->'
 
@@ -65,13 +65,18 @@ def render_textile(content):
   return textile.textile(content.encode('utf-8'))
 
 
+def render_publication(content):
+  return publication.format(content)
+
+
 # Mapping: string ID -> (human readable name, renderer)
 MARKUP_MAP = {
-    'html':     ('HTML', lambda c: c),
-    'txt':      ('Plain Text', lambda c: html.linebreaks(html.escape(c))),
-    'markdown': ('Markdown', render_markdown),
-    'textile':  ('Textile', render_textile),
-    'rst':      ('ReStructuredText', render_rst),
+    'html':        ('HTML', lambda c: c),
+    'txt':         ('Plain Text', lambda c: html.linebreaks(html.escape(c))),
+    'markdown':    ('Markdown', render_markdown),
+    'textile':     ('Textile', render_textile),
+    'rst':         ('ReStructuredText', render_rst),
+    'publication': ('Publication', render_publication),
 }
 
 

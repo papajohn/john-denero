@@ -20,6 +20,7 @@ class ContentGenerator(object):
   """A class that generates content and dependency lists for blog posts."""
 
   can_defer = True
+
   """If True, this ContentGenerator's resources can be generated later."""
 
   @classmethod
@@ -180,6 +181,7 @@ class ListingContentGenerator(ContentGenerator):
     next_page = cls.path % path_args
     template_vals = {
         'generator_class': cls.__name__,
+        'resource': resource,
         'posts': posts[:config.posts_per_page],
         'prev_page': prev_page if pagenum > 1 else None,
         'next_page': next_page if more_posts else None,

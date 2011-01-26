@@ -1,4 +1,4 @@
-application: bloggart-demo
+application: john-denero
 version: live
 runtime: python
 api_version: 1
@@ -12,6 +12,8 @@ skip_files: |
  (#.*#)|
  (.*~)|
  (.*\.py[co])|
+ (\..*\.swp)|
+ (\.DS_Store)|
  )$
 
 
@@ -32,5 +34,12 @@ handlers:
   static_files: themes/\1/static/\2
   upload: themes/[^/]+/static/.*
 
+- url: /content
+  static_dir: content
+
 - url: /.*
   script: static.py
+
+builtins:
+- datastore_admin: on
+
