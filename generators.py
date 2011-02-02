@@ -11,7 +11,6 @@ import config
 import markup
 import static
 import utils
-import sys
 
 
 generator_list = []
@@ -149,18 +148,9 @@ class ListingContentGenerator(ContentGenerator):
   first_page_path = None
   """The path for the first listing page."""
 
-  use_summaries = True
-  """Use summaries instead of full posts"""
-
-  paginate = True
-  """Paginate results via posts_per_page"""
-
   @classmethod
   def get_etag(cls, post):
-    if cls.use_summaries:
-      return post.summary_hash
-    else:
-      return post.hash
+    return post.summary_hash
 
   @classmethod
   def _filter_query(cls, resource, q):
@@ -179,11 +169,8 @@ class ListingContentGenerator(ContentGenerator):
     q.filter('published <', start_ts or datetime.datetime.max)
     cls._filter_query(resource, q)
 
-    posts_per_page = config.posts_per_page
-    if not cls.paginate: posts_per_page = sys.maxint - 1
     posts = q.fetch(config.posts_per_page + 1)
     more_posts = len(posts) > config.posts_per_page
-    page_posts = posts[:config.posts_per_page]
 
     path_args = {
         'resource': resource,
@@ -195,8 +182,7 @@ class ListingContentGenerator(ContentGenerator):
     template_vals = {
         'generator_class': cls.__name__,
         'resource': resource,
-        'use_summaries': cls.use_summaries,
-        'posts': page_posts,
+        'posts': posts[:config.posts_per_page],
         'prev_page': prev_page if pagenum > 1 else None,
         'next_page': next_page if more_posts else None,
     }
@@ -214,10 +200,10 @@ class ListingContentGenerator(ContentGenerator):
 
 
 class IndexContentGenerator(ListingContentGenerator):
-  """ListingContentGenerator for all posts"""
+  """ContentGenerator for the homepage of the blog and archive pages."""
 
-  path = '/posts/page/%(pagenum)d'
-  first_page_path = '/posts'
+  path = '/page/%(pagenum)d'
+  first_page_path = '/'
 
   @classmethod
   def get_resource_list(cls, post):
@@ -230,8 +216,6 @@ class TagsContentGenerator(ListingContentGenerator):
 
   path = '/tag/%(resource)s/%(pagenum)d'
   first_page_path = '/tag/%(resource)s'
-  use_summaries=False
-  paginate=False
 
   @classmethod
   def get_resource_list(cls, post):
@@ -282,35 +266,3 @@ class AtomContentGenerator(ContentGenerator):
     if response.status_code / 100 != 2:
       raise Exception("Hub ping failed", response.status_code, response.content)
 generator_list.append(AtomContentGenerator)
-
-class HomeContentGenerator(ContentGenerator):
-  """ContentGenerator for the Home page"""
-
-  can_defer = False;
-
-  @classmethod
-  def get_resource_list(cls, post):
-    return ["home"]
-
-  @classmethod
-  def get_etag(cls, post):
-    return post.summary_hash
-
-  @classmethod
-  def generate_resource(cls, post, resource):
-    import models
-    q = models.BlogPost.all().order('-published')
-    posts = q.fetch(config.posts_per_page + 1)
-
-    q = models.BlogPost.all().order('-published')
-    q.filter('path =', config.feature)
-    feature = q.get()
-
-    template_vals = {
-        'generator_class': cls.__name__,
-        'posts': posts[:config.posts_per_page],
-        'feature': feature,
-    }
-    rendered = utils.render_template("home.html", template_vals)
-    static.set('/', rendered, config.html_mime_type)
-generator_list.append(HomeContentGenerator)
