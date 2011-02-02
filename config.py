@@ -8,7 +8,7 @@ author_name = 'John DeNero'
 slogan = ''
 
 # The hostname this site will primarially serve off (used for Atom feeds)
-host = 'john-denero.appspot.com'
+host = 'www.denero.org'
 
 # Selects the theme to use. Theme names correspond to directories under
 # the 'themes' directory, containing templates and static content.
@@ -24,15 +24,19 @@ post_path_format = '/%(year)d/%(month)02d/%(slug)s'
 # A nested list of sidebar menus, for convenience. If this isn't versatile
 # enough, you can edit themes/default/base.html instead.
 sidebars = [
-  ('Links', [
+  ('External Links', [
     ('Google Translate Blog', 'http://googletranslate.blogspot.com/'),
-    ('My Wife Jessica\'s Blog', 'http://jessicawan.com'),
+    ('Google Research Blog', 'http://googleresearch.blogspot.com/'),
+    ('My Wife Jessica', 'http://jessicawan.com'),
     ('My Berkeley Homepage', 'http://www.eecs.berkeley.edu/~denero/index.html'),
   ]),
 ]
 
+# Which post to feature on the home page
+feature = '/2011/01/Zier'
+
 # Number of entries per page in indexes.
-posts_per_page = 10
+posts_per_page = 5
 
 # The mime type to serve HTML files as.
 html_mime_type = "text/html; charset=utf-8"
@@ -42,7 +46,7 @@ html_mime_type = "text/html; charset=utf-8"
 disqus_forum = 'johndenero'
 
 # Length (in words) of summaries, by default
-summary_length = 2000
+summary_length = 100
 
 # If you want to use Google Analytics, enter your 'web property id' here
 analytics_id = 'UA-20813292-1'
