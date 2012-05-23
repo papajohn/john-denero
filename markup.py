@@ -17,6 +17,8 @@ available.
 
 import logging
 import re
+import fix_path
+fix_path.fix_sys_path()
 from cStringIO import StringIO
 
 from django.utils import html

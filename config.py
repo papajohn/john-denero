@@ -25,15 +25,27 @@ post_path_format = '/%(year)d/%(month)02d/%(slug)s'
 # enough, you can edit themes/default/base.html instead.
 sidebars = [
   ('External Links', [
-    ('Google Translate Blog', 'http://googletranslate.blogspot.com/'),
-    ('Google Research Blog', 'http://googleresearch.blogspot.com/'),
+    ('Google Translate Blog', 'http://googletranslate.blogspot.com'),
+    ('Google Research Blog', 'http://googleresearch.blogspot.com'),
+    ('Berkeley NLP Group', 'http://nlp.cs.berkeley.edu'),
     ('My Wife Jessica', 'http://jessicawan.com'),
-    ('My Berkeley Homepage', 'http://www.eecs.berkeley.edu/~denero/index.html'),
   ]),
+  ('Recent Publications', [
+    ('Inducing Sentence Structure from Parallel Corpora for Reordering',
+     'http://www.denero.org/content/pubs/emnlp11_denero_stir.pdf'),
+    ('Model-Based Aligner Combination Using Dual Decomposition',
+     'http://www.denero.org/content/pubs/acl11_denero_dual.pdf'),
+    ('Phrase Alignment Models for Statistical Machine Translation',
+     'http://www.denero.org/content/pubs/denero_thesis.pdf'),
+    ('Discriminative Modeling of Extraction Sets for Machine Translation',
+     'http://www.denero.org/content/pubs/acl10_denero_extraction.pdf'),
+    ('Model Combination for Machine Translation',
+     'http://www.denero.org/content/pubs/naacl10_denero_combination.pdf')
+  ])
 ]
 
 # Which post to feature on the home page
-feature = '/2011/01/Zier'
+feature = '/2011/02/The-Pac-Man-Projects'
 
 # Number of entries per page in indexes.
 posts_per_page = 5

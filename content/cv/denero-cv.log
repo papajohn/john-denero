@@ -1,17 +1,27 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live/MacPorts 2009_6) (format=pdflatex 2010.10.9)  15 FEB 2011 23:13
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  23 MAY 2012 10:42
 entering extended mode
+ restricted \write18 enabled.
  %&-line parsing enabled.
-**denero-cv.tex
+**denero-cv
 (./denero-cv.tex
 LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, loaded.
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, galician, german, ngerman, swissgerman, monogreek, greek, hungarian,
+ icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, or
+iya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji,
+ lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, pol
+ish, portuguese, romanian, russian, sanskrit, serbian, serbianc, slovak, sloven
+ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
+.
 (./res.cls
 Document Style `res' <26 Sep 89>.
 Document Class: res 2000/05/19 v1.4b Resume class
-(/opt/local/share/texmf-texlive-dist/tex/latex/base/article.cls
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/opt/local/share/texmf-texlive-dist/tex/latex/base/size10.clo
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -67,49 +77,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--60
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--65
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--70
 
  []
 
 [1
 
-{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ´ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
+
+[2]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ´ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
- [2]
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
-[3] [4] ) 
+[4] [5] ) 
 Here is how much of TeX's memory you used:
- 292 strings out of 495061
- 3119 string characters out of 3181964
- 53507 words of memory out of 3000000
- 3551 multiletter control sequences out of 15000+200000
+ 292 strings out of 493633
+ 3104 string characters out of 3143378
+ 55323 words of memory out of 3000000
+ 3674 multiletter control sequences out of 15000+200000
  5200 words of font info for 19 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
- 29i,8n,21p,263b,144s stack positions out of 5000i,500n,10000p,200000b,50000s
-</opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cm
-bx10.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cm
-bx12.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cm
-csc10.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/c
-mr10.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cm
-ti10.pfb>
-Output written on denero-cv.pdf (4 pages, 96026 bytes).
+ 831 hyphenation exceptions out of 8191
+ 29i,8n,21p,259b,144s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc
+10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
+.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb>
+Output written on denero-cv.pdf (5 pages, 93196 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
+ 40 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
