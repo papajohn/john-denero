@@ -1,2 +1,17 @@
+# Python
+__pycache__
 *.pyc
-.*
+
+# Virtualenv
+bin
+include
+lib
+
+# Pelican
+published
+
+# Other
+.DS_Store
+.Python
+*.sublime*
+cp.sh
