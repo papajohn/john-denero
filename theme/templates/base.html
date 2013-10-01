@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+  <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+  <meta charset="utf-8" />
+
+  <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/denero.css" />
+
+  {% block header %}
+  {% endblock header %}
+
+  {% if page and page.latex %}
+  {{ page.latex }}
+  {% endif %}
+</head>
+
+<body id="index" class="home">
+  <div class="container">
+    <div class="nav-main">
+      <div class="wrap">
+        <a href="/">John DeNero</a>
+        <ul class="nav-site">
+          {% for title, link in MENUITEMS %}
+          <li><a href="{{ SITEURL }}/{{ link }}">{{ title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    <section class="content wrap documentationContent">
+      <div class="nav-docs">
+        {% block nav %}
+        {% endblock %}
+      </div>
+
+      <div class="inner-content">
+        {% block content %}
+        {% endblock %}
+      </div>
+    </section>
+
+    <div class="wrap">
+    </div>
+  </div>
+</body>
+</html>
