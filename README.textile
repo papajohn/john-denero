@@ -1,6 +1,0 @@
-John DeNero's blog and website, based on Bloggart (https://github.com/Arachnid/bloggart).
-
-Dependencies:
-
-git clone git://github.com/Arachnid/aetycoon.git
-git clone git@github.com:papajohn/bloggart-theme-coolblue.git themes/coolblue
