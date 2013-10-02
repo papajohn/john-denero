@@ -16,7 +16,8 @@ THEME = 'theme'
 DIRECT_TEMPLATES = ('index',)
 
 MENUITEMS = (('About', ''),
-             ('Publications', 'pages/publications.html'))
+             ('Publications', 'pages/publications.html'),
+             ('Teaching', 'pages/teaching.html'))
 LINKS =  (('CS 61A Course', 'http://inst.eecs.berkeley.edu/~cs61a'),)
 
 # For development
