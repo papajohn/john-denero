@@ -38,6 +38,6 @@ class PublicationDirective(Directive):
         spec = {k: v for k, v in self.options.items()}
         authors = self.options['author'].split(' and ')
         if len(authors) > 1:
-            spec['author'] = ', '.join(authors[:-1]) + ', and ' + authors[-1]
+            spec['author'] = ', '.join(authors[:-1]) + ' and ' + authors[-1]
         node = nodes.raw('', template.format(**spec), format='html')
         return [node]
