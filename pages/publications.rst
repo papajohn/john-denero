@@ -1,6 +1,25 @@
 Publications
 ============
 
+2014
+----
+
+.. publication::
+  :title: Teaching Composition Quality at Scale
+  :author: John DeNero and Stephen Martinis
+  :venue: SIGCSE
+  :year: 2014
+  :tag: education
+  :paperLink: ../content/pubs/sigcse14_denero_composition.pdf
+
+.. publication::
+  :title: Object-Oriented Tower Defense
+  :author: John DeNero and Tom Magrino and Eric Tzeng
+  :venue: SIGCSE Nifty Assignments
+  :year: 2014
+  :tag: education
+  :paperLink:
+
 2013
 ----
 
@@ -19,6 +38,14 @@ Publications
   :year: 2013
   :tag: morphology
   :paperLink: ../content/pubs/naacl13_durrett_morphology.pdf
+
+.. publication::
+  :title: Twitter Trends Project
+  :author: John DeNero and Aditi Muralidharan
+  :venue: SIGCSE Nifty Assignments
+  :year: 2013
+  :tag: education
+  :paperLink:
 
 2012
 ----
