@@ -13,7 +13,7 @@ def register_publication_directive(sender):
 
 template = '''
 <div class="publication">
-  {author}. <a href="{paperlink}">{title}</a>. {venue}, {year}.
+  {author}. <a href="{paperlink}">{title}</a>. {venue}, {year}. {slides}
 </div>
 '''
 class PublicationDirective(Directive):
@@ -39,5 +39,8 @@ class PublicationDirective(Directive):
         authors = self.options['author'].split(' and ')
         if len(authors) > 1:
             spec['author'] = ', '.join(authors[:-1]) + ' and ' + authors[-1]
+        spec['slides'] = ''
+        if self.options.get('slideslink'):
+            spec['slides'] = '(<a href="{slideslink}">slides</a>)'.format(**self.options)
         node = nodes.raw('', template.format(**spec), format='html')
         return [node]

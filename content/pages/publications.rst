@@ -7,10 +7,11 @@ Publications
 .. publication::
   :title: Teaching Composition Quality at Scale
   :author: John DeNero and Stephen Martinis
-  :venue: SIGCSE
+  :venue: Proceedings of SIGCSE
   :year: 2014
   :tag: education
   :paperLink: ../content/pubs/sigcse14_denero_composition.pdf
+  :slidesLink: ../content/pubs/sigcse14_denero_composition_slides.pdf
 
 .. publication::
   :title: Object-Oriented Tower Defense
@@ -18,7 +19,8 @@ Publications
   :venue: SIGCSE Nifty Assignments
   :year: 2014
   :tag: education
-  :paperLink:
+  :paperLink: http://nifty.stanford.edu/2014/denero-ants-vs-somebees/
+  :slidesLink: ../content/talks/sigcse14_denero_ants_slides.pdf
 
 2013
 ----
@@ -45,7 +47,8 @@ Publications
   :venue: SIGCSE Nifty Assignments
   :year: 2013
   :tag: education
-  :paperLink:
+  :paperLink: http://nifty.stanford.edu/2013/denero-muralidharan-trends/
+  :slidesLink: ../content/talks/sigcse13_denero_twitter_slides.pdf
 
 2012
 ----
@@ -84,6 +87,7 @@ Publications
   :year: 2011
   :tag: translation
   :paperLink: ../content/pubs/acl11_denero_dual.pdf
+  :slidesLink: ../content/pubs/acl11_denero_dual_slides.pdf
 
 .. publication::
   :title: L1 and L2 Regularization for Multiclass Hinge Loss Models
@@ -100,6 +104,7 @@ Publications
   :year: 2011
   :tag: translation
   :paperLink: ../content/pubs/emnlp11_denero_stir.pdf
+  :slidesLink: ../content/pubs/emnlp11_denero_stir_slides.pdf
 
 2010
 ----
