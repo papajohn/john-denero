@@ -10,4 +10,4 @@ handlers:
   upload: index.html
 
 - url: /
-  static_dir: .
+  static_dir: /

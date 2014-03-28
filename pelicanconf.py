@@ -35,6 +35,7 @@ ARTICLE_URL = 'blog/{slug}.html'
 ARTICLE_SAVE_AS = 'blog/{slug}.html'
 AUTHOR_SAVE_AS = False
 CATEGORY_SAVE_AS = False
+BLOG_SAVE_AS = 'blog/blog.html'
 
 # Options
 NEWEST_FIRST_ARCHIVES = False
