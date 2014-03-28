@@ -25,7 +25,8 @@ DIRECT_TEMPLATES = ('index', 'blog')
 MENUITEMS = (('About', ''),
              ('Publications', 'pages/publications.html'),
              ('Teaching', 'pages/teaching.html'),
-             ('Blog', 'blog.html'))
+             #('Blog', 'blog.html'),
+            )
 LINKS =  ()
 ARTICLE_URL = 'blog/{slug}.html'
 ARTICLE_SAVE_AS = 'blog/{slug}.html'
