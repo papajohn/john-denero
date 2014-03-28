@@ -14,6 +14,9 @@ PAGE_DIR = 'pages'
 ARTICLE_DIR = 'blog'
 STATIC_SAVE_AS = 'content/{path}'
 STATIC_PATHS = ['cv', 'misc', 'pubs', 'talks', 'zier']
+EXTRA_PATH_METADATA = {
+    'misc/app.yaml': {'path': '../app.yaml'}
+}
 
 # Configure non-content paths
 OUTPUT_PATH = 'published/'

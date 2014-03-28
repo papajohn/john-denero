@@ -6,8 +6,8 @@ threadsafe: true
 
 handlers:
 - url: /$
-  static_files: published/index.html
-  upload: published/index.html
+  static_files: index.html
+  upload: index.html
 
 - url: /
-  static_dir: published
+  static_dir: .
