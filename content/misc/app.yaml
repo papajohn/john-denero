@@ -9,5 +9,14 @@ handlers:
   static_files: index.html
   upload: index.html
 
-- url: /
-  static_dir: /
+- url: /blog
+  static_dir: blog
+
+- url: /content
+  static_dir: content
+
+- url: /pages
+  static_dir: pages
+
+- url: /theme
+  static_dir: theme
