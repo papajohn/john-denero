@@ -110,6 +110,15 @@ Publications
 ----
 
 .. publication::
+  :title: Phrase Alignment Models for Statistical Machine Translation
+  :author: John DeNero
+  :venue: PhD Dissertation
+  :year: 2010
+  :tag: Translation
+  :paperLink: ../content/pubs/denero_thesis.pdf
+  :slidesLink: ../content/talks/denero_thesis_slides.pdf
+
+.. publication::
   :title: Discriminative Modeling of Extraction Sets for Machine Translation
   :author: John DeNero and Dan Klein
   :venue: In proceedings of ACL
