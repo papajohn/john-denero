@@ -5,6 +5,20 @@ Publications
 ----
 
 .. publication::
+  :title: A Constrained Viterbi Relaxation for Bidirectional Word Alignment
+  :author: Yin-Wen Chang and Alexander M. Rush and John DeNero and Michael Collins
+  :venue: Proceedings of the Association for Computational Linguistics
+  :year: 2014
+  :tag: alignment
+
+.. publication::
+  :title: Observational Initialization of Type-Supervised Taggers
+  :author: Hui Zhang and John DeNero
+  :venue: Proceedings of the Association for Computational Linguistics (Short Paper Track)
+  :year: 2014
+  :tag: lexicon
+
+.. publication::
   :title: Teaching Composition Quality at Scale
   :author: John DeNero and Stephen Martinis
   :venue: Proceedings of SIGCSE
