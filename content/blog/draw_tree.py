@@ -39,7 +39,7 @@ def render(tag, branches, left, top, tree):
         tree.add_edge(tag, b[0])
     return right
 
-def draw_tree(t):
+def draw_tree(t, ax=None):
     """Draw a phrase-structure tree (of varying type)."""
     tree = nx.DiGraph()
     tag, branches = node_tree(t)
@@ -52,7 +52,7 @@ def draw_tree(t):
     def draw_labels(labels, **kwargs):
         nx.draw(tree, nx.get_node_attributes(tree, 'pos'),
                 labels=labels, node_shape=None, edge_color='gray',
-                style='dotted', arrows=False, font_size=12,
+                style='dotted', arrows=False, font_size=12, ax=ax,
                 **kwargs)
     draw_labels(interiors, font_weight='bold')
     draw_labels(leaves, font_color='blue')
