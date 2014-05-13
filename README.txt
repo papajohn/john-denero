@@ -9,20 +9,10 @@ Development Environment
 The published version is generated using Pelican and uses Python3. To configure
 your environment for development:
 
-- Install Python3.3 (required for jinja2)
-- Install virtualenv (varies by OS): apt-get install virtualenv
+- Install Python3.3 using Anaconda (http://continuum.io/blog/anaconda-python-3)
 - Install git : apt-get install git
 - Clone repository: git clone https://github.com/papajohn/john-denero.git
-- Change directory: cd john-denero
-- Create a virtualenv: virtualenv -p `which python3` .
-- Activate the virtualenv: source bin/activate
-- Install pelican: pip install pelican
-
-To initialize a development session:
-
-- Change directory: cd john-denero
-- Activate the virtualenv: source bin/activate
-- Watch for changes: pelican -r -s py/pelicanconf.py pages
+- Install pelican: pip install pelican (you may want to create a venv first)
 
 Contents
 --------
