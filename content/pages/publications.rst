@@ -9,6 +9,7 @@ Publications
   :author: Yin-Wen Chang and Alexander M. Rush and John DeNero and Michael Collins
   :venue: Proceedings of the Association for Computational Linguistics
   :year: 2014
+  :paperLink: ../content/pubs/acl14_chang_relax.pdf
   :tag: alignment
 
 .. publication::
@@ -16,6 +17,7 @@ Publications
   :author: Hui Zhang and John DeNero
   :venue: Proceedings of the Association for Computational Linguistics (Short Paper Track)
   :year: 2014
+  :paperLink: ../content/pubs/acl14_zhang_observational.pdf
   :tag: lexicon
 
 .. publication::
