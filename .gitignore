@@ -16,3 +16,4 @@ published
 .Python
 *.sublime*
 cp.sh
+.idea
