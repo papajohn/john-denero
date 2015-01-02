@@ -23,7 +23,7 @@ class PublicationDirective(Directive):
     final_argument_whitespace = False
     option_spec = {
             "title": str,
-            "author": str,
+            "author": unicode,
             "venue": str,
             "year": int,
             "tag": str,

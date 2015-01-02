@@ -1,13 +1,19 @@
 Teaching
 ========
 
-CS 61A: The Structure and Interpretation of Computer Programs in
-`Fall 2013 <http://inst.eecs.berkeley.edu/~cs61a/fa13>`_,
-`Fall 2012 <http://inst.eecs.berkeley.edu/~cs61a/fa12>`_,
-`Fall 2011 <http://inst.eecs.berkeley.edu/~cs61a/fa11>`_
+The Structure and Interpretation of Computer Programs in
+`61A Spring 2015 <http://inst.eecs.berkeley.edu/~cs61a/sp15>`_,
+`61A Fall 2014 <http://inst.eecs.berkeley.edu/~cs61a/fa14>`_,
+`61A Fall 2013 <http://inst.eecs.berkeley.edu/~cs61a/fa13>`_,
+`61A Fall 2012 <http://inst.eecs.berkeley.edu/~cs61a/fa12>`_,
+`61A Fall 2011 <http://inst.eecs.berkeley.edu/~cs61a/fa11>`_
+
+CS 195: Social Implications of Computing in
+`195 Spring 2015 <http://inst.eecs.berkeley.edu/~cs195/sp15>`_,
+`195 Fall 2014 <http://inst.eecs.berkeley.edu/~cs195/fa14>`_,
 
 CS 188: Introduction to Artificial Intelligence in
-`Spring 2009 <http://inst.eecs.berkeley.edu/~cs188/sp09>`_
+`188 Spring 2009 <http://inst.eecs.berkeley.edu/~cs188/sp09>`_
 
 
 Materials

@@ -9,6 +9,8 @@ lib
 
 # Pelican
 published
+cache
+output
 
 # Other
 .gcloud

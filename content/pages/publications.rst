@@ -1,6 +1,16 @@
 Publications
 ============
 
+2015
+----
+
+.. publication::
+  :title: Problems Before Solutions: Automated Problem Clarification at Scale
+  :author: Soumya Basu and Brian Hou and Albert Wu and John DeNero
+  :venue: Learning @ Scale
+  :year: 2015
+  :tag: education
+
 2014
 ----
 
@@ -170,7 +180,7 @@ Publications
 
 .. publication::
   :title: Painless Unsupervised Learning with Features
-  :author: Taylor Berg-Kirkpatrick and Alexandre Bouchard-Côté and John DeNero and Dan Klein
+  :author: Taylor Berg-Kirkpatrick and Alexandre Bouchard-Cote and John DeNero and Dan Klein
   :venue: In proceedings of NAACL
   :year: 2010
   :paperLink: ../content/pubs/naacl10_berg_painless.pdf
@@ -227,7 +237,7 @@ Publications
 
 .. publication::
   :title: Sampling Alignment Structure under a Bayesian Translation Model
-  :author: John DeNero and Alex Bouchard-Côté and Dan Klein
+  :author: John DeNero and Alex Bouchard-Cote and Dan Klein
   :venue: In proceedings of EMNLP
   :year: 2008
   :paperLink: ../content/pubs/emnlp08_denero_sampling_alignment.pdf
