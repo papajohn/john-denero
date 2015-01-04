@@ -1,9 +1,8 @@
-# Instructions for recreating this environment:
-# - Install anaconda full from pkg (next time try mini...)
-# - Create a Python 3 environment: conda create -n vision python=3 anaconda
-# - Activate it: source activate vision
-# - Install Python-3-compatible version of pydot: pip install pydot2
-# - Install graphviz: sudo port selfupdate && sudo port install graphviz
+# Commands for recreating this environment, assuming python3.4+ is installed:
+#
+# virtualenv env --python=python3
+# source env/bin/activate
+# pip install -r requirements.txt
 
-source activate vision
+source env/bin/activate
 ipython notebook --pylab inline

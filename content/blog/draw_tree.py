@@ -1,4 +1,20 @@
-"""Generic rendering that applies both to nested lists and Trees."""
+"""Tree layout & rendering for nested lists and Trees.
+
+Assumes that Tree objects have the following attributes:
+
+class Tree:
+    def __init__(self, tag, branches):
+        assert len(branches) >= 1
+        for b in branches:
+            assert isinstance(b, Tree) or isinstance(b, Leaf)
+        self.tag = tag
+        self.branches = branches
+
+class Leaf:
+    def __init__(self, tag, word):
+        self.tag = tag
+        self.word = word
+"""
 
 import networkx as nx
 
@@ -49,10 +65,13 @@ def draw_tree(t, ax=None):
     nodes = nx.get_node_attributes(tree, 'interior').items()
     interiors={node: (node if interior else "") for node, interior in nodes}
     leaves={node: (node if not interior else "") for node, interior in nodes}
+
     def draw_labels(labels, **kwargs):
+        """Draw a tree with the specified labels and drawing keyword args."""
         nx.draw(tree, nx.get_node_attributes(tree, 'pos'),
                 labels=labels, node_shape=None, edge_color='gray',
                 style='dotted', arrows=False, font_size=12, ax=ax,
-                **kwargs)
+                with_labels=True, **kwargs)
+
     draw_labels(interiors, font_weight='bold')
     draw_labels(leaves, font_color='blue')
