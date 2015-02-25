@@ -6,9 +6,10 @@ Publications
 
 .. publication::
   :title: Problems Before Solutions: Automated Problem Clarification at Scale
-  :author: Soumya Basu and Brian Hou and Albert Wu and John DeNero
-  :venue: Learning @ Scale
+  :author: Soumya Basu and Albert Wu and Brian Hou and John DeNero
+  :venue: Learning at Scale
   :year: 2015
+  :paperLink: ../content/pubs/las15_basu_unlocking.pdf
   :tag: education
 
 2014
