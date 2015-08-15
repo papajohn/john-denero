@@ -2,6 +2,7 @@ Teaching
 ========
 
 The Structure and Interpretation of Computer Programs in
+`61A Fall 2015 <http://inst.eecs.berkeley.edu/~cs61a/fa15>`_,
 `61A Spring 2015 <http://inst.eecs.berkeley.edu/~cs61a/sp15>`_,
 `61A Fall 2014 <http://inst.eecs.berkeley.edu/~cs61a/fa14>`_,
 `61A Fall 2013 <http://inst.eecs.berkeley.edu/~cs61a/fa13>`_,
@@ -9,6 +10,7 @@ The Structure and Interpretation of Computer Programs in
 `61A Fall 2011 <http://inst.eecs.berkeley.edu/~cs61a/fa11>`_
 
 CS 195: Social Implications of Computing in
+`195 Fall 2015 <http://inst.eecs.berkeley.edu/~cs195/fa15>`_,
 `195 Spring 2015 <http://inst.eecs.berkeley.edu/~cs195/sp15>`_,
 `195 Fall 2014 <http://inst.eecs.berkeley.edu/~cs195/fa14>`_,
 
