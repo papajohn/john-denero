@@ -5,6 +5,22 @@ Publications
 ----
 
 .. publication::
+  :title: Hierarchical Incremental Adaptation for Statistical Machine Translation
+  :author: Joern Wuebker and Spence Green and John DeNero
+  :venue: Proceedings of Empirical Methods in Natural Language Processing
+  :year: 2015
+  :tag: translation
+  :paperLink: ../content/pubs/emnlp15_wuebker_adapt.pdf
+
+.. publication::
+  :title: Variable-Length Word Encodings for Neural Translation Models
+  :author: Rohan Chitnis and John DeNero
+  :venue: Proceedings of Empirical Methods in Natural Language Processing
+  :year: 2015
+  :tag: translation
+  :paperLink: ../content/pubs/emnlp15_chitnis_encoding.pdf
+
+.. publication::
   :title: Problems Before Solutions: Automated Problem Clarification at Scale
   :author: Soumya Basu and Albert Wu and Brian Hou and John DeNero
   :venue: Learning at Scale

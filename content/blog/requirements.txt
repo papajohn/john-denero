@@ -1,4 +1,0 @@
-ipython[notebook]
-Matplotlib
-pydot2
-networkx

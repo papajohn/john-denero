@@ -11,7 +11,7 @@ DEFAULT_DATE = 'fs'
 # Mark everything but blog as static content
 PATH = 'content'
 PAGE_DIR = 'pages'
-ARTICLE_DIR = 'blog'
+# ARTICLE_DIR = 'blog'
 STATIC_SAVE_AS = 'content/{path}'
 STATIC_PATHS = ['cv', 'misc', 'pubs', 'talks', 'zier']
 EXTRA_PATH_METADATA = {
@@ -24,18 +24,18 @@ PLUGINS = ['plugins.publication']
 THEME = 'theme'
 
 # Site structure
-DIRECT_TEMPLATES = ('index', 'blog')
+DIRECT_TEMPLATES = ('index',)
 MENUITEMS = (('About', ''),
              ('Publications', 'pages/publications.html'),
              ('Teaching', 'pages/teaching.html'),
              #('Blog', 'blog.html'),
             )
 LINKS =  ()
-ARTICLE_URL = 'blog/{slug}.html'
-ARTICLE_SAVE_AS = 'blog/{slug}.html'
+# ARTICLE_URL = 'blog/{slug}.html'
+# ARTICLE_SAVE_AS = 'blog/{slug}.html'
 AUTHOR_SAVE_AS = False
 CATEGORY_SAVE_AS = False
-BLOG_SAVE_AS = 'blog/blog.html'
+# BLOG_SAVE_AS = 'blog/blog.html'
 
 # Options
 NEWEST_FIRST_ARCHIVES = False
