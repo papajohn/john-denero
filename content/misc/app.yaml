@@ -9,6 +9,11 @@ handlers:
   static_files: index.html
   upload: index.html
 
+- url: /meet
+  static_files: meet
+  upload: meet
+  mime_type: text/html
+
 - url: /blog
   static_dir: blog
 
