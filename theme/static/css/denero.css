@@ -509,3 +509,8 @@ p.attribution {
 	margin-top: 20px;
 	border-left: #DFDFEF solid 8px;
 }
+
+span.rev {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
