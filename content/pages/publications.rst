@@ -1,6 +1,25 @@
 Publications
 ============
 
+2016
+----
+
+.. publication::
+  :title: Restaurant Recommendations
+  :author: Brian Hou, Marvin Zhang, and John DeNero
+  :venue: SIGCSE Nifty Assignments
+  :year: 2016
+  :tag: education
+  :paperLink: http://nifty.stanford.edu/
+
+.. publication::
+  :title: Fuzz Testing Projects in Massive Courses
+  :author: Sumukh Sridhara, Brian Hou, Jeffrey Lu, and John DeNero
+  :venue: Learning at Scale
+  :year: 2016
+  :paperLink: ../content/pubs/las16_sridhara_fuzz.pdf
+  :tag: education
+
 2015
 ----
 
