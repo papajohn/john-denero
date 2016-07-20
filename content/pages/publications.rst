@@ -18,6 +18,7 @@ Publications
   :venue: Learning at Scale
   :year: 2016
   :paperLink: ../content/pubs/las16_sridhara_fuzz.pdf
+  :slidesLink: ../content/pubs/las16_sridhara_fuzz_slides.pdf
   :tag: education
 
 .. publication::
