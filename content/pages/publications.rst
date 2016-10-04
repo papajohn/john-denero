@@ -5,6 +5,14 @@ Publications
 ----
 
 .. publication::
+  :title: Models and Inference for Prefix-Constrained Machine Translation
+  :author: Joern Wuebker and Spence Green and John DeNero and Sasa Hasan and Minh-Thang Luong
+  :venue: Proceedings of the Association for Computational Linguistics
+  :year: 2016
+  :paperLink: ../content/pubs/acl16_wuebker_interactive.pdf
+  :tag: translation
+
+.. publication::
   :title: Restaurant Recommendations
   :author: Brian Hou, Marvin Zhang, and John DeNero
   :venue: SIGCSE Nifty Assignments
@@ -338,4 +346,3 @@ Publications
   :slidesLink: ../content/pubs/naacl06_denero_phrase_slides.ppt
   :bibLink: http://acl.ldc.upenn.edu/W/W06/W06-3105.bib
   :tag: Translation
-
