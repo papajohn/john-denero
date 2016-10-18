@@ -31,7 +31,7 @@ Publications
 
 .. publication::
   :title: Identifying Student Misunderstandings using Constructed Responses
-  :author: Kristin Stephens-Marintez, An Ju, Colin Schoen, John DeNero, and Armando Fox
+  :author: Kristin Stephens-Martinez, An Ju, Colin Schoen, John DeNero, and Armando Fox
   :venue: Learning at Scale (Extended Abstract)
   :year: 2016
   :paperLink: ../content/pubs/las16_stephens_misunderstandings.pdf
